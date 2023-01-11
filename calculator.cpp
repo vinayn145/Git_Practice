@@ -15,19 +15,19 @@ int main() {
   switch(op) {
 
     case '+':
-      cout << "Addition" << endl;
+      cout << num1 << " + " << num2 << " = " << num1 + num2;
       break;
 
     case '-':
-      cout << "Subtraction" << endl;
+      cout << num1 << " - " << num2 << " = " << num1 - num2;
       break;
 
     case '*':
-      cout << "Multiplication" << endl;
+      cout << num1 << " * " << num2 << " = " << num1 * num2;
       break;
 
     case '/':
-      cout << "Division" << endl;
+      cout << num1 << " / " << num2 << " = " << num1 / num2;
       break;
 
     default:
